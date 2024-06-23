@@ -11,9 +11,12 @@ def get_starting_number():
 
 def sing(n):
     while n > 0:
-        if n > 1:
+        if n > 2:
             print(f"{n} bottles of beer on the wall, {n} bottles of beer.")
             print(f"Take one down, pass it around, {n - 1} bottles of beer on the wall.\n")
+        elif n == 2:
+            print(f"{n} bottles of beer on the wall, {n} bottles of beer.")
+            print(f"Take one down, pass it around, {n - 1} bottle of beer on the wall.\n")
         elif n == 1:
             print(f"{n} bottle of beer on the wall, {n} bottle of beer.")
             print("Take it down, pass it around, no more bottles of beer on the wall!")

@@ -25,7 +25,6 @@ def main():
     # run while loop with accumulator version
     num_bottles = wlav.get_starting_number()
     wlav.sing(num_bottles)
-4
 
     # run while loop with flag version
     num_bottles = wlfv.get_starting_number()
